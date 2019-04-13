@@ -9,7 +9,7 @@ const reducer = (state = initialState, action) => {
     case 'RND':
       return state + action.payload;
     default:
-      return 0;
+      return state;
   }
 };
 
